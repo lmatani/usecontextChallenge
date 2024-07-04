@@ -15,10 +15,14 @@ const App = () => {
   return (
     <>
     <ThemeProvider>
-        <div className={mode}>
-          <Button theme={mode} onClick={handleModeChange}/>
-          <RoutesApp />
-        </div>
+        <section className={mode}>
+          <div className='header'>
+            <Button theme={mode} onClick={handleModeChange}/>
+          </div>
+          <div className='container'>
+            <RoutesApp />
+          </div>
+        </section>
     </ThemeProvider>
 
   </>

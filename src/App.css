@@ -2,16 +2,41 @@
   text-align: center;
 }
 
-ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    text-align: left;
-    gap: 30px;
-    margin-left: 0;
-    width: 100%;
+section {
+  width: 600px;
 }
 
-li {
-  list-style: none;
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f4f4f4;
+  border-bottom: 1px solid #ddd;
 }
+
+
+.container ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+ 
+  gap: 15px;
+}
+
+.btn-mode {
+  margin-left: auto;
+}
+
+
+a {
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+
+
+
+
+

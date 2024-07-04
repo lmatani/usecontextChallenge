@@ -11,7 +11,7 @@ function Button(props) {
     }
 
     return (<>
-    <div className=''><button onClick={handleChangeMode}>Cambio de modo</button></div>
+    <div className='btn-mode'><button onClick={handleChangeMode}>Cambio de modo</button></div>
     </>);
 }
 
